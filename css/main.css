@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter_18pt-Light.ttf') format('truetype');
+    font-weight: 300;
+    /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter_18pt-normal.ttf') format('truetype');
+    font-weight: 400;
+    /* normal */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter_18pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter_18pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    /* SemiBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter_18pt-Bold.ttf') format('truetype');
+    font-weight: 700;
+    /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter_18pt-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    /* ExtraBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
+
+
+.memory {
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background-color: #F6F6F9;
+}
+
+.memory__container {
+    max-width: 905px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -50px;
+}
+
+.memory__title {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 550px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    margin-bottom: 61px;
+}
+
+.memory__title>span {
+}
+.ds {
+    border-bottom: 11px solid #FF00A2;
+    max-width: 185px;
+    margin-top: -20px;
+    width: 100%;
+    margin-left: 355px;
+}
+
+.memory__box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 587px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.memory__box-title {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 39px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: black;
+    max-width: 587px;
+    margin-bottom: 53px;
+    width: 100%;
+}
+
+.memory__card {
+    display: flex;
+    align-items: start;
+    margin-bottom: 42px;
+}
+
+.memory__card-text {
+    max-width: 560px;
+    width: 100%;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: black;
+}
+
+
+
+.description {
+    padding-top: 100px;
+}
+
+.description__container {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.description__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.description__rows {
+    max-width: 905px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 148px;
+}
+
+.description__title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    max-width: 905px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: black;
+    margin-bottom: 54px;
+}
+
+.description__subtitle {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 62px;
+    color: black;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+.description__box-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 31px;
+    max-width: 712px;
+    width: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: black;
+    margin-bottom: 33px;
+}
+
+.description__info {
+    background-color: #F6F6F9;
+    padding: 25px 50px 14px 12px;
+    max-width: 655px;
+    width: 100%;
+}
+
+.description__info-item {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: black;
+}
+
+.description__images {
+    position: absolute;
+    max-width: 699px;
+    width: 100%;
+    right: -20px;
+    top: 63px;
+}
+
+.description__img {
+    max-width: 699px;
+    width: 100%;
+}
+
+.gallery {
+    padding-top: 69px;
+    padding-bottom: 142px;
+}
+
+.gallery__container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery__img {
+    width: 100%;
+    width: 444px;
+}
+
+.footer {
+    padding-top: 24px;
+    padding-bottom: 28px;
+    background-color: #171717;
+}
+
+.footer__container {
+    max-width: 543px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer__title {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-bottom: 11px;
+}
+
+.footer__subtitle {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer__text {
+    text-align: center;
+    color: #7D7D7D;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 13px;
+    width: 100%;
+}
+
+.footer__texts {
+    text-align: center;
+    color: #7D7D7D;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+    vertical-align: middle;
+}
+
+
+
+@media (max-width:768px) {
+    .gallery {
+        padding-bottom: 0px;
+    }
+
+    .gallery__img {
+        width: 100%;
+        width: 380px;
+        margin-bottom: 60px;
+    }
+
+    .description__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+
+    .description__subtitle {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .description__box-title {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 28px;
+    }
+
+    .description__info-item {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .description__info {
+        padding: 24px 30px 50px 6px;
+        max-width: 224px;
+        width: 100%;
+    }
+
+    .gallery__container {
+        flex-direction: column;
+    }
+
+    .footer__title {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+
+    .footer__subtitle {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+
+    .footer__text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .description__images {
+        width: 400px;
+        top: 200px;
+    }
+}
+
+
+@media (max-width:440px) {
+    .description__images {
+        top: 300px;
+        width: 261px;
+    }
+
+    .memory {
+        padding-top: 35px;
+        padding-bottom: 29px;
+    }
+
+    .memory__title {
+        font-size: 25px;
+        line-height: 39px;
+        margin-bottom: 58px;
+    }
+
+    .memory__box-title {
+        font-size: 20px;
+        line-height: 31px;
+        margin-bottom: 48px;
+    }
+
+    .memory__card-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .memory__card {
+        margin-bottom: 34px;
+    }
+
+
+
+}
